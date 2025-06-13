@@ -45,6 +45,7 @@ Clone the template repository and set up your project:
 ```bash
 git clone https://github.com/YOUR_USERNAME/SovCorE_Template.git
 cd SovCorE_Template
+```
 
 ---
 
@@ -54,6 +55,7 @@ Set up a virtual environment and install dependencies:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ---
 
@@ -62,10 +64,10 @@ Create your .env file based on env.example, then run migrations:
 ```bash
 python manage.py migrate
 python manage.py runserver
+```
 
 ---
 
-```markdown
 ## Deployment Ready
 
 This template is configured to support fast deployment using:
@@ -106,6 +108,3 @@ Released under the [MIT License](LICENSE).
 ## Maintained By
 
 **SovCorE**
-
-
-
