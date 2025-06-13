@@ -23,6 +23,7 @@ A reusable Django starter template for modern full-stack web projects. Built wit
 
 ## Project Structure
 
+```
 project-root/
 ├── config/ # Django settings, URLs, WSGI/ASGI
 ├── core/ # Main Django app
@@ -35,6 +36,7 @@ project-root/
 ├── Procfile # For Heroku/Render deployment
 ├── runtime.txt # Python version spec
 └── README.md # Project documentation
+```
 
 ---
 
